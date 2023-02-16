@@ -12,7 +12,7 @@
 	<c:forEach var="item" items="${video}">
 		<div class="col-3">
 			<div class="card mt-3" style="border: none; background-color: white;">
-
+aa
 				<div class="card-body">
 					<a href="sites/Detail?videoId=${item.videoId}">
 					<img src="${empty item.poster ? './images/up-min.jpg': item.poster}" width="300px" height="170px" halt=""
